@@ -3,11 +3,19 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 import {
+	SiCloudflare,
+	SiCloudinary,
 	SiExpress,
+	SiFlutter,
+	SiGooglegemini,
 	SiJsonwebtokens,
+	SiMongodb,
 	SiPostgresql,
 	SiPrisma,
+	SiRedis,
+	SiSupabase,
 	SiTypescript,
+	SiUpstash,
 	SiZod,
 } from "react-icons/si";
 import Title from "./Title";
@@ -15,7 +23,7 @@ import Title from "./Title";
 export default function Project() {
 	const projects = [
 		{
-			title: "Ecommerce Backend REST API",
+			title: "Ecommerce - Backend",
 			tech: [
 				SiTypescript,
 				SiExpress,
@@ -26,61 +34,33 @@ export default function Project() {
 			],
 			link: "https://github.com/theeeep/E-Commerce-App-Backend",
 			cover: "/e_com_1.png",
-			background: "bg-rose-500",
+			background: "bg-black",
 		},
 		{
 			title: "Thread Clone",
-			tech: [
-				SiTypescript,
-				SiExpress,
-				SiPostgresql,
-				SiPrisma,
-				SiJsonwebtokens,
-				SiZod,
-			],
-			link: "https://github.com/theeeep/E-Commerce-App-Backend",
+			tech: [SiFlutter, SiSupabase, SiPostgresql],
+			link: "https://github.com/theeeep/thread_clone",
 			cover: "/thread_3.png",
 			background: "bg-green-500",
 		},
 		{
-			title: "Echo GPT",
-			tech: [
-				SiTypescript,
-				SiExpress,
-				SiPostgresql,
-				SiPrisma,
-				SiJsonwebtokens,
-				SiZod,
-			],
-			link: "https://github.com/theeeep/E-Commerce-App-Backend",
+			title: "E-Library Management (Backend)",
+			tech: [SiTypescript, SiJsonwebtokens, SiExpress, SiMongodb, SiCloudinary],
+			link: "https://github.com/theeeep/E-Library-REST-API-Typescript",
 			cover: "/e_lib_1.png",
 			background: "bg-green-500",
 		},
 		{
 			title: "Echo GPT",
-			tech: [
-				SiTypescript,
-				SiExpress,
-				SiPostgresql,
-				SiPrisma,
-				SiJsonwebtokens,
-				SiZod,
-			],
-			link: "https://github.com/theeeep/E-Commerce-App-Backend",
+			tech: [SiFlutter, SiGooglegemini],
+			link: "https://github.com/theeeep/echo-gpt",
 			cover: "/echo_2.png",
 			background: "bg-green-500",
 		},
 		{
-			title: "Echo GPT",
-			tech: [
-				SiTypescript,
-				SiExpress,
-				SiPostgresql,
-				SiPrisma,
-				SiJsonwebtokens,
-				SiZod,
-			],
-			link: "https://github.com/theeeep/E-Commerce-App-Backend",
+			title: "Redis Limit Api (Minor Project)",
+			tech: [SiRedis, SiCloudflare, SiUpstash],
+			link: "https://github.com/theeeep/redis_rate_limit",
 			cover: "/red_lim_1.png",
 			background: "bg-green-500",
 		},
@@ -91,7 +71,7 @@ export default function Project() {
 				text="Projects 🔪"
 				className="flex flex-col items-center justify-center rotate-6"
 			/>
-			<div className="grid grid-cols-1 sm:grid-cols-2 pt-20 gap-5">
+			<div className="grid grid-cols-1 sm:grid-cols-3 pt-20 gap-5">
 				{projects.map((project, index) => {
 					return (
 						<Link href={project.link} key={index}>
