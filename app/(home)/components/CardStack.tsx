@@ -64,7 +64,7 @@ const CARDS = [
 		designation: "Github",
 		content: (
 			<p>
-				I'm that backend guru who turns caffeine into digital magic! ☕️💻{" "}
+				I&apos;m that backend guru who turns caffeine into digital magic! ☕️💻{" "}
 				<Highlight>My superpower?</Highlight> I make do the
 				<Highlight>cha-cha while juggling terabytes of data! 💃🤹‍♂️</Highlight>
 			</p>
@@ -76,9 +76,9 @@ const CARDS = [
 		designation: "X",
 		content: (
 			<p>
-				My passion<Highlight>?</Highlight> I'm like a digital
+				My passion<Highlight>?</Highlight> I&apos;m like a digital
 				<Highlight>architect on steroids</Highlight>, designing the skyscrapers
-				of <Highlight>tomorrow's web</Highlight>. Just call me the
+				of <Highlight>tomorrow&apos;s web</Highlight>. Just call me the
 				<Highlight>Bob the Builder</Highlight> of
 				<Highlight>bytes!</Highlight> 👷‍♂️🏗️
 			</p>
@@ -93,7 +93,7 @@ const CARDS = [
 				So, if you ever need someone to turn your
 				<Highlight>digital dreams</Highlight> into
 				<Highlight>reality</Highlight>(or just want to debate the best curry
-				recipe), I'm your<Highlight>go-to backend buddy</Highlight> from
+				recipe), I&apos;m your<Highlight>go-to backend buddy</Highlight> from
 				<Highlight>Hyderabad!</Highlight>🚀🌶️
 			</p>
 		),
