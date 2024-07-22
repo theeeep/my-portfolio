@@ -31,7 +31,7 @@ export const Highlight = ({
 const CARDS = [
 	{
 		id: 0,
-		name: "devdeee",
+		name: "devdeeepak",
 		designation: "Linkedin",
 		content: (
 			<p>
@@ -76,8 +76,7 @@ const CARDS = [
 				So, if you ever need someone to turn your
 				<Highlight>digital dreams</Highlight> into
 				<Highlight>reality</Highlight>(or just want to debate the best curry
-				recipe), I&apos;m your<Highlight>go-to backend buddy</Highlight> from
-				<Highlight>Hyderabad!</Highlight>🚀🌶️
+				recipe), I&apos;m your<Highlight>go-to backend buddy</Highlight>🚀🌶️
 			</p>
 		),
 	},
