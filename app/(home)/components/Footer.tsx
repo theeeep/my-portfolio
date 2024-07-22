@@ -15,7 +15,11 @@ export default function Footer() {
 					borderRadius="0.6rem"
 					className="p-3 font-semibold text-md  hover:text-slate-400"
 				>
-					<Link href={"mailto:itz.deeepak@gmail.com"}>
+					<Link
+						href={
+							"https://drive.google.com/file/d/1nwYb8GkmtQmpQqQ0l4TIfnFJDGtgC8RQ/view?usp=drive_link"
+						}
+					>
 						<p>
 							<span className="underline underline-offset-8 decoration-green-500">
 								Resume 📬

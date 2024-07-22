@@ -1,8 +1,9 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
-import React, {
-	ReactNode,
+import type React from "react";
+import {
+	type ReactNode,
 	createContext,
 	useContext,
 	useEffect,
@@ -186,7 +187,7 @@ const Overlay = ({ className }: { className?: string }) => {
 				backdropFilter: "blur(0px)",
 			}}
 			className={`fixed inset-0 h-full w-full bg-black bg-opacity-50 z-50 ${className}`}
-		></motion.div>
+		/>
 	);
 };
 

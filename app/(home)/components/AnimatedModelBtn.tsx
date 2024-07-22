@@ -123,7 +123,13 @@ export function AnimatedModalDemo() {
 							</Link>
 						</button>
 						<button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
-							<Link href={""}>Resume</Link>
+							<Link
+								href={
+									"https://drive.google.com/file/d/1nwYb8GkmtQmpQqQ0l4TIfnFJDGtgC8RQ/view?usp=drive_link"
+								}
+							>
+								Resume
+							</Link>
 						</button>
 					</ModalFooter>
 				</ModalBody>
