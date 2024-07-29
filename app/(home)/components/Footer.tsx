@@ -1,6 +1,7 @@
 import { MovingBorderBtn } from "@/components/ui/moving-border";
 import Link from "next/link";
 import React from "react";
+import { SiGmail } from "react-icons/si";
 import { AnimatedModalDemo } from "./AnimatedModelBtn";
 import Navbar from "./Navbar";
 
@@ -11,13 +12,14 @@ export default function Footer() {
 				<h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-3">
 					{"< Deepak />"} 👨🏼‍💻
 				</h1>
+
 				<MovingBorderBtn
 					borderRadius="0.6rem"
 					className="p-3 font-semibold text-md  hover:text-slate-400"
 				>
 					<Link
 						href={
-							"https://drive.google.com/file/d/1nwYb8GkmtQmpQqQ0l4TIfnFJDGtgC8RQ/view?usp=drive_link"
+							"https://drive.google.com/file/d/1P6obIyNCfzAXtkjemxvmwI-GoyjmGpKL/view?usp=drive_link"
 						}
 					>
 						<p>

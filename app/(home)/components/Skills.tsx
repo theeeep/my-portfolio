@@ -16,6 +16,7 @@ import {
 	SiMongodb,
 	SiMysql,
 	SiNextdotjs,
+	SiNginx,
 	SiNodedotjs,
 	SiPostgresql,
 	SiPrisma,
@@ -73,6 +74,10 @@ export default function Skills() {
 		{
 			text: "Docker",
 			Icon: SiDocker,
+		},
+		{
+			text: "Nginx",
+			Icon: SiNginx,
 		},
 		// {
 		// 	text: "Kubernetes",

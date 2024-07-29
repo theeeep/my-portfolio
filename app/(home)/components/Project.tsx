@@ -3,6 +3,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 import {
+	SiClerk,
 	SiCloudflare,
 	SiCloudinary,
 	SiExpress,
@@ -10,10 +11,13 @@ import {
 	SiGooglegemini,
 	SiJsonwebtokens,
 	SiMongodb,
+	SiNextdotjs,
 	SiPostgresql,
 	SiPrisma,
 	SiRedis,
+	SiShadcnui,
 	SiSupabase,
+	SiTailwindcss,
 	SiTypescript,
 	SiUpstash,
 	SiZod,
@@ -22,6 +26,20 @@ import Title from "./Title";
 
 export default function Project() {
 	const projects = [
+		{
+			title: "Social Scribe",
+			tech: [
+				SiNextdotjs,
+				SiTailwindcss,
+				SiShadcnui,
+				SiTypescript,
+				SiClerk,
+				SiGooglegemini,
+			],
+			link: "https://socialsscribe.vercel.app",
+			cover: "/social.png",
+			background: "bg-black",
+		},
 		{
 			title: "Ecommerce - Backend",
 			tech: [
