@@ -8,7 +8,7 @@ const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	metadataBase: new URL("https://devdee.vercel.app/"),
 
-	title: "Deepak | devdee",
+	title: "Deepak Portfolio",
 	authors: {
 		name: "Deepak",
 	},

@@ -19,7 +19,7 @@ export default function Footer() {
 				>
 					<Link
 						href={
-							"https://drive.google.com/file/d/1P6obIyNCfzAXtkjemxvmwI-GoyjmGpKL/view?usp=drive_link"
+							"https://drive.google.com/file/d/1Mtw6IBzots522cOKZbKg1GlljDI09zkW/view?usp=sharing"
 						}
 					>
 						<p>

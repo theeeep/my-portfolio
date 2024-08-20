@@ -125,7 +125,7 @@ export function AnimatedModalDemo() {
 						<button className="bg-black text-white dark:bg-white dark:text-black text-sm px-2 py-1 rounded-md border border-black w-28">
 							<Link
 								href={
-									"https://drive.google.com/file/d/1nwYb8GkmtQmpQqQ0l4TIfnFJDGtgC8RQ/view?usp=drive_link"
+									"https://drive.google.com/file/d/1Mtw6IBzots522cOKZbKg1GlljDI09zkW/view?usp=sharing"
 								}
 							>
 								Resume
